@@ -20,7 +20,6 @@ _route:
         notes: Grab slate, open door, watch opening CS
     - Grab Axe:
         icon: equipment
-        notes: You will get a lot of these
         coord: [-905.5,1866.5]
     - _Korok::P10
     - _Material<Apple,2>:
@@ -34,9 +33,9 @@ _route:
     - Boko Shield + Sword:
         coord: [-583.5,1701]
         icon: equipment
-        notes: If he drops 5 arrows, get those, you'll need them
+        notes: If he drops 5 arrows, get them
     - _Tower::GreatPlateau:
-        notes: Fall damage cancel off into old man CS, yes it is allowed
+        notes: Fall damage cancel off into old man CS
     - _Shrine::OmanAu:
         comment: Sprint over
     - _Material<Hyrule Herb,5>:
@@ -54,8 +53,7 @@ _route:
         notes: Can get this later (extra warp)
     - _Shrine::KehNamut:
         notes: Climb up from north side
-    - _Korok::P15:
-        notes: Remember you can't use Gold Gaunlets
+    - _Korok::P15
     - _Korok::P16:
         notes: Lift slab with axe
     - _Korok::P17
@@ -91,7 +89,7 @@ _route:
         coord: [-905.5,2205.75]
     - _Chest<Bomb Arrows>:
         coord: [-931.28, 179.28, 2206.72]
-        notes: break crates for goodies
+        notes: Break crates for goodies
     - _Material<Stamella Shroom,7>:
         notes: Around the old man's hut
         coord: [-796.5,2258.75]
