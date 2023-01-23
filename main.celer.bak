@@ -210,7 +210,7 @@ _route:
     - _Material<Swift Violet,6>:
         coord: [1650,1906.5]
         notes: Shoot them down off of the cliff
-    - _Shrine::HaDahamar
+    - _Shrine::HaDahamar 
     - Talk to Beedle:
         coord: [1764.5,1926.25]
         comment: Sell all ores
