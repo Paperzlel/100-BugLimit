@@ -332,9 +332,9 @@ _route:
         notes: Thunder Magnet
         coord: [1550.75,3542.25]
     - _Korok::F41
-	- Talk to .npc(Cima):
-		coord: [1546.25,3533.75]
-		icon: npc
+    - Talk to .npc(Cima):
+        coord: [1546.25,3533.75]
+        icon: npc
     - _Cook<Cook food>:
         notes: 3 endura food, 1 attack up food, 3 hearty food, 3 speed food
     - Break ores:
@@ -507,7 +507,7 @@ _route:
         coord: [1997,838]
     - _Material<Silent Princess,3>:
         coord: [2015,866]
-    - Open fairy fountain:
+    - .boss(Open fairy fountain):
         coord: [1971.5,847]
         icon: camera-plus
         comment: take photo
@@ -543,8 +543,8 @@ _route:
     - Grab cucco by campfire:
         comment: Herd them all back
         icon: tots
-	- Light torches:
-		coord: [1827.625,996]
+    - Light torches:
+        coord: [1827.625,996]
         icon: tots
     - _Tod::Night:
         coord: [1822.5,997.75]
@@ -944,7 +944,7 @@ _route:
     - _Discover<Tabantha Great Bridge>:
         coord: [-3001.75,-584.25]
     - _Korok::T34
-    - Open fairy fountain:
+    - .boss(Open fairy fountain):
         movements:
           - to: [-3416.5,-514.5]
           - to: [-3534.5,-606]
@@ -1945,7 +1945,7 @@ _route:
     - _Korok::A48
     - _Material<Fairy,2>:
         coord: [4093,-1375]
-    - Open Fairy Fountain:
+    - .boss(Open fairy Fountain):
         coord: [4104.25,-1376.5]
         icon: tots
     - _Material<Endura Carrot,2>:
