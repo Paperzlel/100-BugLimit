@@ -3840,7 +3840,7 @@ _route:
     - _Korok::R04
     - _Korok::H73:
         comment: .gale()
-        gale: 3
+        gale: 1
     - _Shrine::DunbaTaag:
         comment: Grab bow and thunderblade in shrine
     - _Warp::Tower::Hebra
