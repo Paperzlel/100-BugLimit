@@ -13,6 +13,7 @@ _project:
   version: 0.1.0
 _route:
   - (==)This run folow MrPancakeTurtle's 100% run, the links are here -> .link([VOD 1]https://youtu.be/J3MWwgrkk9M) , .link([VOD 2]https://youtu.be/fcDLoHGBqCU) , .link([VOD 3]https://youtu.be/M27Chx0LEuk) , .link([VOD 4]https://youtu.be/CUhW2MnjNXU)
+  - (==).link([Here]https://docs.google.com/spreadsheets/d/1SMovk9HxD9_wqcsnHYNq8xmsclU6olqzI3pqu3QZ4Ro/edit#gid=722444247) is a link to a doc of all the materials you can use, note any amiibo/DLC items are not.
   - Plateau:
     - SOR:
         icon: sor
@@ -46,7 +47,7 @@ _route:
         icon: chest
     - _Korok::P02
     - _Warp::SOR
-    - _Material<Hylian Shroom,4>:
+    - _Material<Hylian Shroom,3>:
         coord: [-1067.75,1805.25]
         notes: Left of SOR
     - _Korok::P08:
@@ -90,14 +91,15 @@ _route:
     - _Chest<Bomb Arrows>:
         coord: [-931.28, 179.28, 2206.72]
         notes: Break crates for goodies
+    - _Material<Seared Steak>:
+        coord: [-876.75,2206]
     - _Material<Stamella Shroom,7>:
         notes: Around the old man's hut
         coord: [-796.5,2258.75]
-    - _Material<Seared Steak>:
-        coord: [-876.75,2206]
     - _Chest<Warm Doublet>:
        coord: [-786.00, 193.52, 2255.50]
-    - _Material<Baked Apple>
+    - _Material<Baked Apple>:
+        notes: Don't eat, for quest
     - _Equipment::Weapon<Torch>:
         coord: [-803.5,2265]
     - _Cook<Stamina Food>:
@@ -127,7 +129,8 @@ _route:
         coord: [-1087.75, 179.14, 1663.18]
     - _Korok::P03:
         notes: Grab fireflies if they spawn, tree launch up
-    - _Material<Rushroom,3>
+    - _Material<Rushroom,3>:
+        coord: [-1545.5,1650.5]
     - _Korok::C87
     - _Korok::C89:
         notes: Ice pillar over
@@ -139,7 +142,7 @@ _route:
     - Climb up tower
     - _Chest<5x Fire Arrows>:
         coord: [-283,1584.5]
-    - Tree Launch to horses:
+    - .item(Tree Launch to horses):
         coord: [-174,1371.5]
     - Get horse with ice arrow:
         icon: location
@@ -158,9 +161,10 @@ _route:
     - Register horse:
         notes: Keep using the horse, it's faster
     - _Korok::C77
-    - Kill moblin, get club:
-        coord: [147.5,1394.5]
-        icon: chest-special
+    - _Chest::Special<Moblin Club>:
+        coord: [139,1398.5]
+        notes: The Weapon Connoisseur
+        comment: Kill moblin
     - _Korok::D14:
         notes: Use bombs to blow up acorn
     - _Material<Hearty Radish,1>:
@@ -187,6 +191,7 @@ _route:
         coord: [1186.62, 254.28, 1642.77]
     - _Chest<Iron Sledgehammer>:
         coord: [1372.75, 325.40, 1660.55]
+        comment: Smash boxes nearby
     - _Korok::D30
     - _Korok::D41
     - _Korok::D40
@@ -202,9 +207,8 @@ _route:
         icon: chest
     - _Korok::D48:
         notes: Smash deposits for ore, needed for money
-    - _Shrine::ReeDahee
-    - _Chest::Special<Climber's Bandana>:
-        comment: In shrine
+    - _Shrine::ReeDahee:
+        comment: .!!(GET CLIMBER'S BANDANNA)
     - _Chest<Traveller's Bow>:
         coord: [1329.30, 116.93, 1863.99]
     - _Material<Swift Violet,6>:
@@ -216,16 +220,15 @@ _route:
         comment: Sell all ores
         icon: shop
         notes: Buy all arrows, crickets and frogs (for quest). Don't sell flint/rock salt
-    - Talk to .npc(Rensa), take horse:
+    - Talk to .npc(Rensa), take .item(horse):
         coord: [1755,1927.625]
         icon: npc-sheika-male
     - _Korok::D20
     - _Chest<Ice Arrows x5>:
         coord: [1773,1552.5]
-        notes: Break crate for extra arrows and food
-    - Get Hestu's Maracas:
+        notes: Break crates
+    - _Chest::Special<Hestu's Maracas>:
         coord: [2172.24, 218.76, 1369.20]
-        icon: chest-special
         notes: Kill bokos by pushing them off the cliff
     - _Korok::D21:
         notes: drownwarp in water
@@ -262,7 +265,7 @@ _route:
     - _Chest<Phrenic Bow>:
         coord: [1720.91, 323.75, 996.82]
         comment: also grab the nightshade
-    - Activate Ta'loh Naeg:
+    - .loc(Activate Ta'loh Naeg):
         coord: [1836.5,892]
         notes: Don't beat the shrine yet
     - _Shrine::DakaTuss
@@ -272,7 +275,7 @@ _route:
     - _Korok::Z38
     - _Korok::Z39
     - _Korok::Z40
-    - Gather Fleet Lotus:
+    - .item(Gather Fleet Lotus):
         notes: lotus route .link([here]https://objmap.zeldamods.org/#/map/z7,1822.25,256.25), search for fleet lotus and follow the path. Should have 32 at the end
     - _Korok::N01
     - _Warp::Shrine::SheeVaneer
@@ -310,7 +313,7 @@ _route:
         coord: [1790.75,2951.5]
     - _Chest<Shock Arrow x5>
     - _Korok::F17
-    - Pick up rest of parts:
+    - .item(Pick up rest of parts):
         icon: shop
         coord: [1707.25,3000.5]
     - _Korok::F26
@@ -327,7 +330,6 @@ _route:
     - _Shrine::ShaiUtoh:
         comment: Get core in shrine
     - _Equipment::Weapon<Woodcutter's Axe>:
-        text: Grab axe
         comment: on top of horse head
         notes: Thunder Magnet
         coord: [1550.75,3542.25]
@@ -362,9 +364,9 @@ _route:
         coord: [2345,1847]
     - _Korok::N27
     - _Korok::N26
-    - Kill Wizzrobe for rod:
+    - _Chest::Special<Fire Rod>:
         coord: [2239,1496.5]
-        icon: equipment
+        comment: Kill Wizzrobe
     - Tree launch to ores:
         comment: Break them
         icon: chest
@@ -381,11 +383,11 @@ _route:
         coord: [2371.5,1857.5]
     - _Material<Wood,3>
     - _Tod::Night
-    - Talk to Calip:
+    - Talk to .npc(Calip):
         icon: npc
         notes: The Cursed Statue
         coord: [2395.5,1837]
-    - Hit statue with arrow:
+    - .loc(Hit statue with arrow):
         coord: [2514.75,1531.5]
         icon: npc
     - _Korok::N28
@@ -444,6 +446,7 @@ _route:
         comment: Show sword, rod and club
     - Talk to .npc(Pruce):
         comment: Sell all ores
+        icon: npc
         notes: Buy bomb arrows (NOT singular ones), arrows and endura shrooms
         coord: [3361,2164.5]
     - _Material<Hightail Lizard,10>:
@@ -462,16 +465,16 @@ _route:
         coord: [3625.5,2102.5]
         icon: npc
         notes: The Sheep Rustlers
-    - Set Noon if raining
+    - _Tod::Noon:
+        comment: If raining
     - _Korok::N42
-    - Do flame quest with mop:
+    - .rune(Do flame quest with mop):
         coord: [3442,1976.5]
         icon: equipment
     - Talk to .npc(Purah) , get camera:
         coord: [3774,2116.5]
         icon: camera-elite
-    - SNAP lizard:
-        icon: camera-plus
+    - _Snap::Elite<Hightail Lizard>:
         coord: [3770,2144]
         notes: Grab sunshroom as well
     - _Material<Hightail Lizard,5>:
@@ -497,8 +500,7 @@ _route:
         line-color: red
   - Kakariko Quests:
     - _Tod::Noon
-    - SNAP blupee:
-        icon: camera-elite
+    - _Snap::Quest<Blupee>:
         coord: [1892,909]
         notes: Legendary Rabbit Trial
     - _Material<Fairy,4>:
@@ -592,9 +594,9 @@ _route:
         coord: [2015.75,983.5]
         notes: Be careful as you may alert Dorian with bombs
         icon: material
-    - Kill Bladmaster:
+    - .boss(Kill Bladmaster):
         coord: [2029.75,962]
-        icon: equipment
+        icon: tots
         comment: Use Eightfold Blade
         notes: Crit him so he drops the windcleaver
     - Throw away torch
@@ -609,8 +611,7 @@ _route:
     - _Korok::N66
     - _Shrine::ChaasQeta:
         notes: Strat is ice arrows, EOD spin attack, repeat. When you have only 1 ice arrow, use shock arrows instead. Throw EOD for crit. Pick up battleaxe, sword and parts.
-    - GET CLIMBING GEAR:
-        comment: in shrine
+        comment: .!!(GET CLIMBING GEAR)
         icon: camera-elite
     - Sail to Eventide:
         coord: [4465,3656]
@@ -626,13 +627,14 @@ _route:
         coord: [4475,3745]
         icon: tots
         comment: Get durians from tree
-    - Get second orb:
+    - Deposit second orb:
         movements:
            - to: [4641,3631.5]
            - to: [4500.5,3397.5]
         comment: Stun bokos
+        icon: tots
         notes: Get food on the way to the platform
-    - Deposit thrid orb:
+    - Deposit third orb:
         coord: [4671.5,3742.5]
         icon: tots
         comment: Stasis slab
@@ -640,10 +642,11 @@ _route:
     - _Shrine::KorguChideh:
         comment: Grab rupee in shrine
     - _Warp::Shrine::ShaiUtoh
-    - Talk to Beedle:
+    - Talk to .npc(Beedle):
         coord: [1559,3521.5]
         comment: Buy arrows
         icon: shop
+        notes: Optional if low on arrows
     - _Warp::Shrine::WahgoKatta:
         line-color: yellow
   - Central 2:
@@ -663,7 +666,7 @@ _route:
     - _Boss::Hinox::Blue:
         coord: [408,306]
         comment: Watch out for the guardian
-        notes: Eat hearty food for safety
+        notes: Eat hearty meal for safety
     - _Korok::C56:
         comment: Grab apples after
     - _Korok::C45
@@ -675,7 +678,7 @@ _route:
     - _Chest<Arrow x10>:
         coord: [-20.5,221.25]
     - _Korok::C50:
-        notes: Chaos ranch, be careful
+        notes: Be careful
     - _Korok::C55
     - _Korok::C54:
         comment: Tree launch up
@@ -708,7 +711,7 @@ _route:
     - _Korok::C20
     - _Korok::C21
     - _Korok::C14
-    - Break wall with bomb
+    - .loc(Break wall with bomb)
     - _Shrine::NoyaNeha:
         notes: Kill guardian with ice arrows + windcleaver, grab axe and parts
     - Smash crates in cave:
@@ -725,7 +728,7 @@ _route:
     - _Boss::Talus::Rare:
         coord: [-778,-801]
         comment: use hammer, grab ores
-    - _Equipment::Shield<RustyShield>:
+    - _Equipment::Shield<Rusty Shield>:
         coord: [-620,-793]
         comment: For C08
     - _Chest<Ancient Arrow>:
@@ -739,7 +742,7 @@ _route:
         coord: [-589,-633.5]
     - _Chest<Ice Arrow x5>:
         coord: [-527.25,-694]
-    - Watch castle cutscene:
+    - .boss(Watch castle cutscene):
         coord: [-479.75,-709.25]
         icon: ganon
         line-color: red
@@ -882,11 +885,12 @@ _route:
     - _Boss::Talus::Luminous:
         coord: [-2170,-1596]
     - _Korok::R02
-    - Tame another horse:
+    - .item(Tame another horse):
         coord: [-2146.5,-1450.5]
     - _Korok::R06
     - smash deposits:
         coord: [-1900,-1260]
+        icon: chest
     - _Korok::R09
     - _Tower::Ridgeland:
         comment: Tree launch over
@@ -922,7 +926,7 @@ _route:
     - _Discover<Tabantha Bridge Stable>:
         coord: [-2913,-542]
     - _Material<Wood>
-    - Register horse
+    - .item(Register horse)
     - Talk to .npc(Toren):
         coord: [-2911.25,-566.75]
         icon: npc
@@ -1323,7 +1327,6 @@ _route:
     - _Chest<Knight's Bow>:
         coord: [-3188.25,1033.75]
     - _Korok::G10
-    - _Korok::G13
     - _Korok::G13:
         comment: Tree launch up
     - _Korok::G18
@@ -3391,10 +3394,10 @@ _route:
         coord: [3731,1689.5]
         icon: tots
     - _Korok::N39
+    - _Korok::N30
     - _Korok::N37:
         comment: Drownwarp
-    - _Korok::N30
-    - _Korok::N39:
+    - _Korok::N29:
         comment: Drownwarp
     - _Korok::N22
     - _Boss::Hinox::Red:
@@ -3416,12 +3419,12 @@ _route:
     - _Tod::Morning:
         coord: [3419,1182]
     - _Memory::LanayruRoad
-    - _Korok::N23
     - .boss(Shoot Naydra):
         icon: tots
         comment: Shoot horn
     - _Tod::Morning:
         coord: [2984,1280]
+    - _Korok::N21
     - _Korok::N20
     - _Boss::Hinox::Red:
         coord: [2429,1182]
@@ -3446,7 +3449,6 @@ _route:
     - .boss(Shoot Naydra):
         icon: tots
         comment: Shoot claw
-        notes: Go for 3 extra (should be 2 horn and 1 claw), pancake warps away
     - _Shrine::DowNaeh
     - _Warp::Tower::DuelingPeaks:
         line-color: rgb(211, 237, 12)
@@ -3609,7 +3611,8 @@ _route:
         comment: Do minigame twice
     - _Shrine::KaoMakagh:
         comment: Get bow and rupee in shrine
-    - _Korok::L65
+    - _Korok::L65:
+        notes: Don't do an ordinal windbomb, this is bug limit
     - .item(Park horse):
         coord: [156,3433]
         icon: tots
@@ -3622,7 +3625,7 @@ _route:
         gale: 1
     - _Korok::L91
     - _Korok::L90
-    - _Korok:::89
+    - _Korok::L89
     - _Korok::L88
     - _Korok::L87:
         comment: .gale()
@@ -3678,8 +3681,7 @@ _route:
         coord: [92,3389]
     - .item(Get horse):
         coord: [158,3394]
-        comment: .gale()
-        gale: 1
+        comment:
     - _Shop<Buy All Arrows>:
         coord: [-197,3508]
         notes: Sell all ancient parts but small cores and all ores but 55 opal
@@ -3784,7 +3786,7 @@ _route:
     - _Korok::L32
     - _Warp::Shrine::MonyaToma:
         line-color: rgb(227, 11, 180)
-  - Hebra 1:
+  - Hebra:
     - .item(Take horse): 
         coord: [-1551,-1781]
     - _Korok::K17
@@ -3975,9 +3977,7 @@ _route:
         comment: .gale()
         gale: 1
     - _Korok::H46
-    - _Korok::H48:
-        comment: .gale()
-        gale: 1
+    - _Korok::H48
     - _Korok::H47
     - _Korok::H49
     - _Korok::H50
@@ -4067,7 +4067,7 @@ _route:
     - _Korok::A50
     - _Warp::Shrine::MonyaToma
   - Forgotten Temple:
-    - Talk to brothers:
+    - Talk to .npc(brothers):
         coord: [-1544.5,-1805.75]
         icon: npc
         notes: Leviathan Bones
@@ -4156,7 +4156,7 @@ _route:
     - Talk to .npc(Hestu):
         coord: [465.25,-2112.125]
         icon: hestu
-        comment: 2 shield, HEstu's Gift
+        comment: 2 shield, Hestu's Gift
     - Talk to .npc(Chio):
         coord: [431.75,-2139]
         icon: npc
