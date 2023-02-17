@@ -957,7 +957,7 @@ _route:
           - to: [-3547,-744]
         icon: tots
         comment: 500 rupees
-        notes: Upgrade climbing set
+        notes: Upgrade climbing set, need 15 electric keese wings, 9 keese wings, 9 rushroom, and 15 hightail lizards, Backup lizards can be found west of Faron tower in the beetle area
     - _Material<Endura Carrot,2>:
         coord: [-3564.375,-730]
     - _Material<Silent Princess,2>:
@@ -1033,6 +1033,9 @@ _route:
     - _Korok::T02
     - _Equipment::Bow<Swallow Bow>:
         coord: [-3789.25,-2324.125]
+    - _Cook<Cook cold food>:
+        comment: 3 peppers, 2 sunshroom
+        notes: Optional
     - Talk to .npc(Teba):
         coord: [-3800.75,-2312.625]
         icon: npc-rito
@@ -1210,7 +1213,7 @@ _route:
     - _Korok::W18
     - _Korok::W13
     - _Korok::W09
-    - Activate Kema Zoos:
+    - .rune(Activate Kema Zoos):
         coord: [-4670,1987]
         icon: shrine
     - Sand Seal up Karusa Valley:
