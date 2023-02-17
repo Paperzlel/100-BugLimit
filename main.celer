@@ -342,6 +342,7 @@ _route:
     - Break ores:
         icon: chest
         coord: [1542.75,3374.5]
+        notes: Speed food is 3 lotus, 1 swift carrot and 1 farosh horn
     - _Korok::F34
     - _Tod::Morning:
         coord: [1496.25,3345.5]
@@ -449,7 +450,7 @@ _route:
         icon: npc
         notes: Buy bomb arrows (NOT singular ones), arrows and endura shrooms
         coord: [3361,2164.5]
-    - _Material<Hightail Lizard,10>:
+    - _Material<Hightail Lizard,5>:
         comment: Around hateno, check VOD
         coord: [3385,2117]
     - Talk to .npc(Medda):
@@ -468,7 +469,7 @@ _route:
     - _Tod::Noon:
         comment: If raining
     - _Korok::N42
-    - .rune(Do flame quest with mop):
+    - .rune(Flame quest with mop):
         coord: [3442,1976.5]
         icon: equipment
     - Talk to .npc(Purah) , get camera:
@@ -505,6 +506,7 @@ _route:
         notes: Legendary Rabbit Trial
     - _Material<Fairy,4>:
         coord: [1970,858]
+        notes: 3 is more likely
     - _Material<Endura Carrot,3>:
         coord: [1997,838]
     - _Material<Silent Princess,3>:
@@ -525,8 +527,6 @@ _route:
         coord: [1826.75,989.25]
         notes: Find the Fairy Fountain
         icon: npc
-    - Light torches:
-        icon: bow
     - Pick up cucco:
         coord: [1826.25,995.5]
         icon: tots
