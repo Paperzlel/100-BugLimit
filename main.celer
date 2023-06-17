@@ -6,14 +6,14 @@ _config:
 _project:
   authors:
     - Paperzlel
-    - MrPancakeTurtle(original route)
-  description: 100% Bug limit
+    - MrPancakeTurtle (original route)
+  description: 100% Bug Limit
   name: Bug Limit 100%
   url: 'gh.Paperzlel.100buglimit'
   version: 0.1.0
 _route:
   - (==)This run folow MrPancakeTurtle's 100% run, the links are here -> .link([VOD 1]https://youtu.be/J3MWwgrkk9M) , .link([VOD 2]https://youtu.be/fcDLoHGBqCU) , .link([VOD 3]https://youtu.be/M27Chx0LEuk) , .link([VOD 4]https://youtu.be/CUhW2MnjNXU)
-  - (==).link([Here]https://docs.google.com/spreadsheets/d/1SMovk9HxD9_wqcsnHYNq8xmsclU6olqzI3pqu3QZ4Ro/edit#gid=722444247) is a link to a doc of all the materials you can use, note any amiibo/DLC items are not.
+  - (==).link([Here]https://docs.google.com/spreadsheets/d/1SMovk9HxD9_wqcsnHYNq8xmsclU6olqzI3pqu3QZ4Ro/edit#gid=722444247) is a link to a doc of all the materials you can use, note any amiibo/DLC items are not allowed in this run.
   - Plateau:
     - SOR:
         icon: sor
@@ -30,11 +30,11 @@ _route:
     - Boko Bow:
         coord: [-622.25,1743.5]
         icon: bow
-        notes: Grab some arrows as well, about 5 is fine
+        notes: Grab 5 arrows or more 
     - Boko Shield + Sword:
         coord: [-583.5,1701]
         icon: equipment
-        notes: If he drops 5 arrows, get them
+        notes: If he drops arrows, get them
     - _Tower::GreatPlateau:
         notes: Fall damage cancel off into old man CS
     - _Shrine::OmanAu:
