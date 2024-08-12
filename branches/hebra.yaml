@@ -1,0 +1,205 @@
+- .item(Take horse):
+    coord: [-1551, -1781]
+- _Korok::K17
+- _Korok::K18
+- _Korok::K16
+- _Boss::Hinox::Stal:
+    comment: .fury()
+    fury: 2
+    notes: If Dinraal spawns get claw
+    coord: [-1289, -2108]
+- _Korok::K12
+- _Korok::K10:
+    comment: .gale()
+    gale: 1
+- _Korok::H38
+- _Korok::H59
+- _Shrine::RinOyaa
+- _Tod::Morning:
+    coord: [-1666, -2552.5]
+- Talk to .npc(Juannelle):
+    icon: npc
+    notes: Stalhorse - Pictured!
+    coord: [-1652, -2587]
+- _Korok::H37
+- _Korok::H52
+- _Korok::H58
+- _Korok::H62
+- .boss(Shoot Dinraal):
+    comment: Shoot claw
+    icon: tots
+- _Discover<Pondo's Lodge>:
+    coord: [-2078, -2094.5]
+- _Tower::Hebra:
+    comment: .gale()
+    gale: 2
+- _Korok::H61
+- _Korok::H57
+- .boss(Knock door down):
+    icon: tots
+    notes: .link([Snowball strat]https://youtu.be/CUhW2MnjNXU?t=14968)
+    coord: [-2462, -2287]
+- _Shrine::GeeHarah
+- _Warp::Tower::Hebra
+- _Chest<Falcon Bow>:
+    coord: [-2309.5, -1879.5]
+- _Korok::H67
+- _Korok::H70
+- _Korok::H69
+- _Korok::R01
+- _Korok::K22
+- _Korok::R04
+- _Korok::H73:
+    comment: .gale()
+    gale: 1
+- _Shrine::DunbaTaag:
+    comment: Grab bow and thunderblade in shrine
+- _Warp::Tower::Hebra
+- _Boss::Talus::Rare:
+    comment: .fury()
+    fury: 3
+    coord: [-2855, -1827]
+- _Korok::H66
+- _Chest<Falcon Bow>:
+    coord: [-3222.5, -1910.5]
+- _Korok::T05
+- _Discover<Hebra Trailhead Lodge>:
+    comment: Grab meteor rod inside
+    coord: [-3573.5, -2253.5]
+- _Boss::Talus::Frost:
+    comment: Grab ores
+    coord: [-3706, -2346.5]
+- _Korok::H54:
+    comment: .gale()
+    gale: 2
+- _Korok::H55:
+    comment: Tree launch over
+- _Korok::H43
+- _Shrine::ShadaNaw:
+    comment: Tree launch chain up
+- _Korok::H20
+- _Korok::H28:
+    comment: Tree launch up
+- _Tod::Night
+- Look .important(Sky East):
+    comment: Watch chest land
+    icon: tots
+- _Shrine::GomaAsaagh:
+    comment: Grab axe and claymore in shrine
+- _Korok::H35
+- _Korok::H36
+- _Chest::Special<Salvager's Trousers>:
+    coord: [-2608.5, -2653]
+- _Korok::H29
+- _Korok::H31:
+    comment: .gale()
+    gale: 1
+- _Boss::Talus::Frost:
+    coord: [-2153, -3081]
+- _Korok::H30
+- _Shrine::RokUwog
+- _Korok::H13
+- _Korok::H21
+- _Korok::H12:
+    comment: Tree launch over
+- _Warp::Shrine::ShadaNaw
+- _Korok::H27
+- _Shrine::MozoShenno:
+    comment: Grab axe and diamond in shrine
+- _Korok::H26:
+    comment: .gale()
+    gale: 1
+- _Chest<Ice Arrow x5>:
+    coord: [-3788, -3075]
+- _Korok::H25
+- _Warp::Shrine::ShadaNaw
+- _Korok::H10:
+    comment: Tree launch over
+- _Korok::H11
+- _Korok::H09
+- _Korok::H04:
+    comment: .gale()
+    gale: 1
+- _Tod::Night
+- _Boss::Hinox::Stal:
+    coord: [-4268, -3775]
+- _Korok::H01
+- _Shrine::HiaMiu:
+    comment: Grab axe in shrine
+- _Discover<Sherfin's Secret Hot Spring>:
+    coord: [-4324, -3491]
+- _Korok::H07:
+    comment: .gale()
+    gale: 1
+- _Korok::H08
+- _Korok::H02
+- _Warp::Shrine::ShadaNaw
+- _Korok::H19:
+    comment: Tree launch over
+- _Chest<Bomb Arrow x5>:
+    coord: [-3670, -3290]
+- _Korok::H18
+- Open door:
+    icon: tots
+    coord: [-3724, -3545.5]
+- _Snap<Hebra Leviathan>:
+    comment: Leviathan Bones
+    coord: [-3930, -3623]
+- _Shrine::ToQuomo:
+    comment: Grab claymore in shrine
+- _Korok::H03
+- _Korok::H17:
+    comment: Tree launch over
+- _Korok::H24:
+    comment: Tree launch over
+- _Korok::H23:
+    comment: Tree launch + .gale()
+    gale: 2
+- _Korok::H32
+- _Korok::H40
+- _Boss::Hinox::Black:
+    comment: .fury()
+    fury: 3
+    coord: [-4520, -2681]
+- _Korok::T06
+- _Korok::H53:
+    comment: Tree launch over
+- _Korok::H60:
+    comment: Tree launch over
+- _Korok::T08
+- _Korok::T07
+- _Korok::T01
+- _Korok::H42
+- _Korok::H41
+- _Discover<Sturdina Secret Hot Spring>:
+    coord: [-4112, -2714]
+- _Korok::H39
+- .boss(Break down door):
+    coord: [-3985.25, -2542.5]
+- _Shrine::MakaRah:
+    comment: Grab bomb arrows in shrine#
+- _Warp::Shrine::ShadaNaw
+- _Boss::Talus::Frost:
+    coord: [-3069, -2915]
+- _Korok::H33
+- _Korok::H34:
+    comment: .gale()
+    gale: 1
+- _Korok::H44:
+    comment: .gale()
+    gale: 1
+- _Korok::H46
+- _Korok::H48
+- _Korok::H47
+- _Korok::H49
+- _Korok::H50
+- _Korok::H45
+- _Korok::H51
+- _Korok::H56
+- _Shrine::LannoKooh
+- _Korok::H64
+- _Korok::H65
+- _Korok::T03:
+    comment: Drownwarp
+- _Korok::T11:
+    color: rgb(31, 192, 237)

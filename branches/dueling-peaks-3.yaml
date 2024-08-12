@@ -1,0 +1,117 @@
+- _Korok::D16
+- _Korok::D17:
+    comment: .gale()
+    gale: 1
+- _Boss::Talus::Stone:
+    coord: [1477, 1334]
+- _Korok::D18
+- _Korok::D19
+- _Korok::D09
+- _Korok::D10
+- _Shop<Buy Arrows>:
+    coord: [1832, 1043.25]
+- _Korok::D11:
+    comment: .gale()
+    gale: 1
+- _Korok::D07
+- _Korok::N08
+- _Korok::N07
+- _Korok::N09:
+    comment: .gale()
+    gale: 1
+- _Korok::N10
+- .boss(Ride deer to pedestal):
+    icon: tots
+    coord: [2603, 420]
+- Talk to .npc(Kass):
+    icon: npc-rito
+    notes: THe Crowned Beast
+- _Korok::N04
+- _Material<Acorn,2>:
+    coord: [2454.75, 433.25]
+- _Korok::N02
+- _Korok::N03
+- _Shrine::MezzaLo
+- _Korok::Z42
+- _Korok::N05
+- _Korok::N06
+- _Boss::Hinox::Blue:
+    comment: Tree launch over
+    coord: [2983, 788]
+- _Korok::Z51:
+    comment: Tree launch over
+- _Korok::Z53
+- _Korok::Z52
+- _Shrine::RuccoMaag
+- _Material<Lizalfos Tail,1>:
+    coord: [3376.5, 430.5]
+- _Tod::Morning:
+    coord: [3416.5, 480]
+- _Boss::Hinox::Blue:
+    comment: .gale()
+    gale: 2
+    coord: [3534.5, 369]
+- .boss(Shoot Naydra):
+    comment: Shoot horn
+    icon: tots
+    coord: [3522.5, 718.5]
+- _Tod::Morning:
+    coord: [3406, 960]
+- _Korok::N14
+- .boss(Shoot Naydra):
+    comment: Shoot claw
+    icon: tots
+    coord: [3546.5, 751]
+- _Tod::Morning:
+    coord: [3622, 626]
+- _Korok::Z54
+- _Korok::Z55
+- _Korok::N12:
+    comment: .gale()
+    gale: 1
+    notes: Can save a gale here if fast naydra
+- .boss(Shoot Naydra):
+    comment: Shoot scale
+    icon: tots
+    notes: May depend on how fast Naydra is
+- _Korok::Z45
+- _Material<Lizalfos Tail,1>:
+    coord: [3964, 398]
+- _Korok::Z35
+- _Tod::Morning:
+    coord: [4135.5, 79]
+- _Korok::Z36
+- _Korok::Z46
+- Talk to .npc(Kass):
+    icon: npc-rito
+    notes: Master of the Wind
+    coord: [4098.5, 402]
+- .boss(Shoot Naydra):
+    comment: Shoot horn
+    icon: tots
+    notes: SHOULD have 4 horn, 2 scale, 2 claw, 2 fang now
+    coord: [4013, 478]
+# TODO: FIX IF IT DOESN@T WORK
+- .boss(Shoot rocks):
+    movements:
+    - push
+    - [4199.75, 496.5]
+    - [4155.5, 483.5]
+    - [4088.25, 469.75]
+    - pop
+- _Korok::Z56
+- .boss(Drop onto pedestal):
+    coord: [4231, 314]
+- _Shrine::ShaiYota:
+    comment: Grab flameblade in shrine
+- _Boss::Hinox::Blue:
+    coord: [4445, 359]
+- _Korok::Z58
+- _Material<Lizalfos Tail,3>:
+    coord: [4317, 599]
+- _Korok::Z57
+- _Korok::Z59
+- _Korok::Z62
+- _Korok::Z61
+- _Warp::Tower::Faron:
+    color: rgb(87, 166, 250)

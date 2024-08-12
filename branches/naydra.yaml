@@ -1,0 +1,73 @@
+- _Korok::N31
+- .boss(Shoot Naydra):
+    coord: [3958.5, 1350.25]
+- Offer scale:
+    icon: material
+    coord: [3929.75, 1347.5]
+- _Korok::N24
+- .boss(Shoot Naydra):
+    comment: .gale()
+    gale: 1
+    icon: tots
+- .boss(Shoot Naydra):
+    icon: tots
+    coord: [3731, 1689.5]
+- _Korok::N39
+- _Korok::N30
+- _Korok::N37:
+    comment: Drownwarp
+- _Korok::N29:
+    comment: Drownwarp
+- _Korok::N22
+- _Boss::Hinox::Red:
+    comment: .fury()
+    fury: 3
+    coord: [3248.5, 1341]
+- _Korok::N23
+- .boss(Shoot Naydra):
+    icon: tots
+- _Material<Naydra's Scale>:
+    movements:
+    - to: [3937, 1338.5]
+      warp: True
+- _Shrine::JitanSami
+- _Korok::N19
+- _Korok::N18:
+    comment: Tree launch over
+- _Korok::N17
+- _Tod::Morning:
+    coord: [3419, 1182]
+- _Memory::LanayruRoad
+- .boss(Shoot Naydra):
+    comment: Shoot horn
+    icon: tots
+- _Tod::Morning:
+    coord: [2984, 1280]
+- _Korok::N21
+- _Korok::N20
+- _Boss::Hinox::Red:
+    comment: Grab bow
+    coord: [2429, 1182]
+- .boss(Shoot Naydra):
+    comment: Shoot fang
+    icon: tots
+    coord: [2535, 1138]
+- _Korok::N11
+- _Korok::N13
+- .boss(Shoot Naydra):
+    comment: Shoot horn
+    icon: tots
+- _Tod::Morning:
+    coord: [2709.5, 875.5]
+- _Korok::N16:
+    comment: Grab parts, .gale()
+    gale: 1
+- _Korok::N15:
+    comment: .gale()
+    gale: 1
+- .boss(Shoot Naydra):
+    comment: Shoot claw
+    icon: tots
+- _Shrine::DowNaeh
+- _Warp::Tower::DuelingPeaks:
+    color: rgb(211, 237, 12)

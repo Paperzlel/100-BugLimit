@@ -1,0 +1,47 @@
+- _Korok::P07
+- _Korok::P14
+- _Korok::W22
+- _Korok::W27
+- _Korok::W21
+- _Korok::W20
+- _Korok::G36
+- _Shrine::JeeNoh
+- _Korok::W26
+- _Korok::W14
+- _Boss::Talus::Luminous:
+    coord: [-1888, 2042]
+- _Boss::Talus::Luminous:
+    coord: [-2273, 1980]
+- _Korok::W11
+- Kill .enemy(Fire Wizzrobe):
+    comment: For fire rod
+    icon: equipment
+    coord: [-2169.75, 2134]
+- _Korok::W12
+- _Material<Electric Darner>:
+    coord: [-2219, 2205]
+- _Korok::W16
+- _Korok::W23
+- _Korok::W24
+- _Korok::W33:
+    comment: From bottom of canyon
+- .gale() up:
+    gale: 1
+    coord: [-2253.5, 2578.5]
+- _Korok::W32
+- _Korok::W31
+- _Tower::Wasteland:
+    comment: Crate launch up
+- Smash deposits:
+    icon: chest
+    coord: [-2445, 2219]
+- _Korok::G35:
+    notes: Tight, don't mess up
+- .gale() up:
+    gale: 1
+    coord: [-2853.5, 2180]
+- _Boss::Talus::Luminous:
+    coord: [-2892, 2208.5]
+- _Korok::W19
+- _Shrine::KayNoh:
+    color: pink

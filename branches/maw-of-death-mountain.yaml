@@ -1,0 +1,47 @@
+- _Korok::E45:
+    comment: Tree launch over
+- _Shrine::TahMuhl:
+    comment: Get Stone Smasher in shrine
+- _Korok::E44
+- _Shrine::MoaKeet:
+    comment: Get ruby in shrine
+- _Equipment::Weapon<Double Axe>:
+    coord: [2597.25, -1153]
+- Talk to .npc(Mayro):
+    icon: npc
+    notes: A Landscape of a Stable
+    coord: [2620.5, -1145.5]
+- _Korok::E43
+- _Korok::E41
+- _Korok::E42
+- _Korok::E40
+- _Korok::E38
+- _Chest<Ice Arrow x10>:
+    coord: [2684, -1304.5]
+- _Material<Hyrule Bass,3>:
+    coord: [2682.5, -1322.5]
+- _Korok::E39
+- _Shrine::SahDahaj
+- _Korok::E34:
+    comment: .gale()
+    gale: 1
+- _Korok::E30
+- _Korok::E29
+- _Korok::E32:
+    comment: Kill guardian on the way
+- Smash deposits:
+    icon: chest
+    coord: [2282.5, -1616.5]
+- _Korok::E33
+- _Korok::E37
+- _Korok::E36
+- Climb up Death Mountain:
+    comment: .gale()
+    gale: 3
+    movements:
+    - to: [1904, -1269]
+    - to: [1880, -1332]
+    - to: [1862, -1429]
+    - to: [1801, -1501]
+- _Shrine::QuaRaym:
+    color: rgb(237, 148, 52)

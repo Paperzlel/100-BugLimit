@@ -1,0 +1,20 @@
+- _Korok::Z22
+- _Korok::Z23
+- _Korok::Z31
+- .boss(Begin Letter Quest):
+    icon: tots
+    notes: .link([VOD]https://youtu.be/fcDLoHGBqCU?t=35826)
+    coord: [2757, -86.5]
+- _Boss::Hinox::Black:
+    comment: Grab claymore and bow
+    coord: [2477.5, -133]
+- .boss(Deliver letter):
+    icon: tots
+    coord: [1761, -52]
+- _Warp::Shrine::DahHesho
+- Talk to .npc(Hudson):
+    comment: Give 50 wood
+    icon: npc
+    notes: From the Ground Up
+    coord: [3987, -1603.5]
+- _Warp::Beast::Ruta

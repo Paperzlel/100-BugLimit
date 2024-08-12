@@ -1,0 +1,40 @@
+- _Shrine::KemaZoos
+- _Warp::Beast::Naboris
+- _Korok::W34
+- _Korok::W39
+- _Korok::W38
+- _Boss::Talus::Luminous:
+    comment: Grab ores
+    coord: [-2077, 3046]
+- _Korok::W48
+- _Korok::W49
+- _Material<Rushroom,1>:
+    comment: .gale()
+    gale: 1
+    coord: [-1920, 3263]
+- _Korok::W50
+- _Korok::W58
+- _Shrine::DilaMaag:
+    comment: .important(GET BARBARIAN ARMOUR)
+- _Tod::Noon:
+    coord: [-1798.25, 3439.5]
+- .gale() out of maze:
+    gale: 1
+- _Korok::W54:
+    comment: .gale()
+    gale: 1
+- _Korok::W59
+- _Korok::W64
+- _Material<Rushroom,2>:
+    coord: [-1351, 3708.5]
+- _Korok::W60
+- .item(Read Mountain Log):
+    icon: tots
+    notes: Secret of the Snowy Peaks
+    coord: [-1387.5, 3497]
+- _Shrine::SumaSahma
+- _Korok::W53
+- _Korok::W41
+- _Korok::W45
+- _Korok::W46
+- _Warp::Shrine::SohKofi

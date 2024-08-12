@@ -1,0 +1,76 @@
+- _Boss::Talus::Stone:
+    comment: grab ores
+    coord: [1225, 2182]
+- _Korok::F01
+- _Korok::F05
+- _Material<Ancient Part>:
+    notes: What part you get is RNG dependent
+    coord: [1580.75, 2515.75]
+- _Material<Endura Shroom,2>:
+    coord: [1694, 2576.75]
+- _Material<Hearty Radish,1>:
+    coord: [1723.75, 2591.5]
+- _Material<Hearty Truffle,1>:
+    coord: [1761.5, 2725.5]
+- Smash ores in cave:
+    comment: Tree launch over
+    icon: chest
+    notes: Kill keese, you want about 4 to 6 wings
+    coord: [2138.75, 2608]
+- Run to cave:
+    comment: Kill keese
+    notes: You want about 9 to 11 wings
+    coord: [1765, 2782.5]
+- Make Campfire:
+    comment: For Farosh farming
+    icon: cook
+    coord: [1762.75, 2825.75]
+- Farm Farosh parts:
+    notes: 36 Horn, 2 Claw, 4 Scale, 1 Fang. Pick torch up after
+- _Chest<Phrenic Bow>:
+    coord: [1790.75, 2951.5]
+- _Chest<Shock Arrow x5>
+- _Korok::F17
+- .item(Pick up rest of parts):
+    icon: shop
+    coord: [1707.25, 3000.5]
+- _Korok::F26
+- _Korok::F28
+- _Material<Mighty Bananas,8>:
+    coord: [1846.25, 3240.25]
+- _Material<Hearty Radish,1>:
+    coord: [1845.5, 3283.5]
+- _Korok::F35
+- _Material<Luminous Stone,1>
+- _Korok::F42
+- _Material<Mighty Bananas,3>:
+    coord: [1577, 3557.5]
+- _Shrine::ShaiUtoh:
+    comment: Get core in shrine
+- _Equipment::Weapon<Woodcutter's Axe>:
+    comment: on top of horse head
+    notes: Thunder Magnet
+    coord: [1550.75, 3542.25]
+- _Korok::F41
+- Talk to .npc(Cima):
+    icon: npc
+    coord: [1546.25, 3533.75]
+- _Cook<Cook food>:
+    notes: 3 endura food, 1 attack up food, 3 hearty food, 3 speed food
+- Break ores:
+    icon: chest
+    notes: Speed food is 3 lotus, 1 swift carrot and 1 farosh horn
+    coord: [1542.75, 3374.5]
+- _Korok::F34
+- _Tod::Morning:
+    comment: for beetles
+    coord: [1496.25, 3345.5]
+- _Material<Energetic Rhino Beetle,5>:
+    notes: .link([beetle route]https://youtu.be/J3MWwgrkk9M?t=7319)
+- _Tower::Faron:
+    comment: Tree launch up (required)
+- _Korok::F25
+- _Material<Hearty Durian,17>
+- _Material<Wood,10>:
+    comment: Both of these can vary
+- _Warp::Shrine::HaDahamar

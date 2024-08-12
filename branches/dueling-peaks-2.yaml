@@ -1,0 +1,50 @@
+- _Korok::D52
+- _Korok::D51
+- .item(Take and park horse):
+    coord: [1755.5, 1986.5]
+- Talk to .npc(Prissen):
+    icon: npc
+    notes: Misko, the Great Bandit
+    coord: [1771, 1926.5]
+- Talk to .npc(Rensa):
+    icon: npc
+    notes: Wild Horses
+    coord: [1754.375, 1925.5]
+- _Tod::Night:
+    coord: [1745.125, 1945.625]
+- _Discover<Big Twin Bridge>:
+    coord: [1682.5, 2029.5]
+- _Discover<Little Twin Bridge>:
+    coord: [1714.5, 2152.5]
+- _Boss::Hinox::Stal:
+    coord: [1943.25, 2385.75]
+- Tree launch to cave:
+    icon: material
+    coord: [1946.75, 2592]
+- _Chest<Sapphire>:
+    notes: Misko, the Great Bandit
+    coord: [1954.75, 2602]
+- _Korok::D59
+- _Shrine::TotoSah:
+    comment: Grab shield in shrine
+- _Korok::D56
+- _Korok::D55:
+    comment: Tree launch up
+- _Korok::F02:
+    comment: .gale() and tree launch
+    gale: 1
+- _Korok::F03
+- _Korok::F04
+- _Boss::Hinox::Red:
+    comment: Grab bow and sword
+    coord: [1335.5, 2624.5]
+- _Korok::F10
+- _Korok::F16:
+    comment: .gale()
+    gale: 1
+- _Korok::F15:
+    comment: .gale()
+    gale: 1
+- _Korok::L46
+- _Korok::L58
+- _Warp::Tower::Faron

@@ -1,0 +1,29 @@
+title: Bug Limit 100%
+version: 1.0.0
+
+route:
+  use: ./main.yaml
+
+config:
+- use: Pistonight/celer-presets/botw/full.yaml
+
+- tags:
+    custom-item:
+      color: purple
+      split-type: Extra Splits
+    dungeon-entry:
+      color: orange
+      split-type: Extra Splits
+    dungeon-complete:
+      color: purple
+      split-type: Extra Splits
+- splits:
+    - dungeon-entry
+    - dungeon-complete
+    - custom-item
+  plugins:
+  - use: variables
+  - use: split-format
+  - use: link
+    with:
+      Shrines: "[.var(pad02:counter-shrine)] .prop(text)"

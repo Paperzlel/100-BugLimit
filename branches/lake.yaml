@@ -1,0 +1,217 @@
+- _Tod::Morning
+- _Material<Energetic Rhino Beetle,5>:
+    notes: .link([Beetle route]https://youtu.be/CUhW2MnjNXU?t=7668)
+    coord: [1532.5, 3278.5]
+- _Korok::F40
+- _Korok::F39
+- _Korok::F24
+- _Korok::F23
+- _Korok::L61
+- _Korok::L66
+- _Korok::L72
+- _Boss::Hinox::Blue:
+    coord: [1041, 3489]
+- _Korok::F38
+- _Korok::L79
+- _Korok::L92:
+    comment: .gale()
+    gale: 1
+- _Korok::L78:
+    comment: .gale()
+    gale: 1
+- .boss(Open fairy fountain):
+    icon: tots
+    coord: [797, 3717]
+- _Korok::L77
+- _Korok::L76
+- _Korok::L75
+- .item(Take horse):
+    coord: [532, 3434]
+- .enemy(Kill the 5 bokos):
+    icon: tots
+    coord: [505, 3321]
+- Talk to .npc(Perosa):
+    icon: npc
+    notes: The Horseback Hoodlums
+    coord: [521.25, 3468.75]
+- Talk to .npc(Blynne):
+    comment: Do minigame twice
+    icon: npc
+    coord: [517, 3444.5]
+- _Shrine::KaoMakagh:
+    comment: Get bow and rupee in shrine
+- _Korok::L65:
+    notes: Don't do an ordinal windbomb, this is bug limit
+- .item(Park horse):
+    icon: tots
+    notes: Don't whistle sprint until after Ishto Soh
+    coord: [156, 3433]
+- _Korok::L70
+- _Korok::L71
+- _Korok::L74
+- _Korok::L73:
+    comment: .gale()
+    gale: 1
+- _Korok::L91
+- _Korok::L90
+- _Korok::L89
+- _Korok::L88
+- _Korok::L87:
+    comment: .gale()
+    gale: 1
+- Talk to .npc(Loone):
+    icon: npc
+    notes: Guardian Slideshow
+    coord: [105.5, 3810.5]
+- .boss(Deposit orb):
+    icon: tots
+    coord: [119.5, 3850]
+- _Shrine::ShoqaTatone
+- _Korok::L86
+- _Korok::L85
+- _Korok::L83
+- _Korok::L84
+- _Korok::L82
+- _Korok::L81:
+    comment: .gale()
+    gale: 1
+- _Korok::L80
+- _Boss::Hinox::Stal:
+    comment: .fury()
+    fury: 1
+    coord: [-1069, 3786]
+- _Korok::L68
+- _Korok::L67
+- _Shrine::IshtoSoh
+- _Boss::Talus::Luminous:
+    coord: [-959, 3234]
+- _Korok::L37
+- _Korok::L23:
+    comment: Tree launch over
+- _Korok::L21:
+    comment: Tree launch over
+- _Korok::L22
+- .item(Tame Giant Horse):
+    comment: USe Ice arrow
+    icon: tots
+    coord: [-1179, 2679]
+- _Korok::L36
+- _Korok::L41
+- _Korok::L62
+- _Korok::L69:
+    comment: .gale()
+    gale: 1
+- Talk to .npc(Straia):
+    icon: npc
+    notes: Hunt for the Giant Horse
+    coord: [-206, 3504]
+- _Tod::Night
+- _Boss::Hinox::Stal:
+    coord: [92, 3389]
+- .item(Get horse):
+    comment: null
+    coord: [158, 3394]
+- _Shop<Buy All Arrows>:
+    notes: Sell all ancient parts but small cores and all ores but 55 opal
+    coord: [-197, 3508]
+- .important(Horse Minigames):
+    comment: Play twice
+    icon: tots
+    coord: [-245, 3462]
+- _Korok::L64
+- _Korok::L63:
+    comment: Do during L47 race
+- _Korok::L47
+- _Korok::L38
+- _Korok::L24
+- _Korok::L25
+- _Shrine::YaNaga
+- Talk to .npc(Mei):
+    comment: .gale()
+    gale: 1
+    icon: npc-zora-female
+    notes: A Wife Washed Away
+    coord: [-221, 2564]
+- _Korok::L26:
+    comment: .gale()
+    gale: 1
+- _Korok::L15
+- _Korok::L14
+- _Korok::L09:
+    comment: .gale()
+    gale: 1
+- _Tod::Night:
+    coord: [-113.625, 2301.625]
+- _Korok::D54
+- _Korok::L27
+- Look .important(South-East)
+- _Korok::L30
+- _Korok::L31
+- _Chest::Special<Salavger's Headwear>:
+    coord: [126.5, 2712.5]
+- _Korok::L39
+- _Korok::L40
+- _Korok::L44
+- _Korok::L42
+- _Korok::L43
+- _Korok::L51
+- _Material<Lizalfos Tail,2>:
+    coord: [23.5, 2980.5]
+- _Snap<White Lizalfos>:
+    notes: Can also get tail from blue lizalfos here
+    coord: [-40.5, 2977]
+- _Tower::Lake
+- _Korok::L48
+- _Korok::L49
+- _Korok::L50
+- _Korok::L59
+- _Korok::L60
+- _Korok::L52
+- _Shrine::PumaagNitae
+- _Korok::L53
+- _Korok::L55
+- _Korok::L57
+- Talk to .npc(Kass):
+    icon: npc-rito
+    notes: The Serpent's Jaws
+    coord: [791, 3079]
+- _Korok::L56
+- _Korok::L54
+- _Korok::L45
+- _Korok::L35
+- _Korok::L33
+- _Korok::L28:
+    comment: .gale()
+    gale: 1
+- _Korok::L17
+- _Korok::L18
+- _Korok::L29
+- _Korok::L34
+- _Korok::L19:
+    comment: Tree launch over
+- _Korok::L20
+- _Discover<Spring of Courage>:
+    coord: [877, 2390.75]
+- Offer scale:
+    icon: material
+- _Shrine::ShaeKatha
+- _Korok::L13
+- _Korok::L07
+- _Korok::D50
+- _Korok::L12
+- _Korok::L16
+- _Korok::L11
+- _Korok::L05
+- _Korok::L06
+- _Korok::L02
+- _Boss::Talus::Stone:
+    coord: [352.5, 1910]
+- _Korok::L01
+- _Memory::WestNecluda
+- _Korok::D45
+- _Korok::L04
+- _Korok::L03
+- _Korok::L10
+- _Korok::L32
+- _Warp::Shrine::MonyaToma:
+    color: rgb(227, 11, 180)

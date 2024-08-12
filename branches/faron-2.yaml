@@ -1,0 +1,166 @@
+- _Tod::Morning
+- _Material<Energetic Rhino Beetle,5>:
+    notes: .link([Beetle route:]https://youtu.be/M27Chx0LEuk?t=3963)
+    coord: [1550.5, 3257.5]
+- _Boss::Talus::Stone:
+    comment: Grab ores
+    coord: [1698, 3334.5]
+- _Material<Hearty Bass,1>:
+    coord: [1753.5, 3209.5]
+- _Korok::F27:
+    comment: Waterfall up
+- _Shrine::ShodaSah:
+    comment: Grab key and ice arrows in shrine
+- _Korok::F19
+- _Boss::Hinox::Red:
+    comment: .fury() , waste one
+    fury: 3
+    coord: [1503, 3088.5]
+- _Korok::F20
+- _Korok::F11:
+    comment: Tree launch up
+- _Korok::F08
+- _Korok::F12
+- Smash deposits:
+    icon: chest
+    coord: [2137.5, 2596.5]
+- _Korok::F09
+- _Korok::F06
+- _Korok::D57
+- _Korok::D58
+- _Korok::D53:
+    comment: Drownwarp
+- _Korok::F07
+- _Korok::F13
+- _Boss::Hinox::Black:
+    coord: [2423, 2770]
+- Deposit orb:
+    icon: tots
+    coord: [2606, 2835]
+- _Korok::F14
+- _Boss::Hinox::Red:
+    coord: [2785, 2706]
+- Deposit orb:
+    icon: tots
+    coord: [2638, 2810]
+- _Material<Courser Bee Honey,5>:
+    coord: [2655, 2986]
+- _Chest<Ice Arrow x5>:
+    coord: [2678, 2991]
+- _Boss::Hinox::Blue:
+    coord: [2700, 2965]
+- Deposit orb:
+    coord: [2630, 2856]
+- _Shrine::TawaJinn:
+    comment: Grab thunderblade in shrine
+- _Material<Fleet-Lotus Seeds,7>:
+    coord: [2369.5, 2864.5]
+- _Korok::F21
+- _Korok::F29
+- Talk to .npc(Kass):
+    icon: npc-rito
+    notes: A song of Storms
+    coord: [2093, 3236]
+- Break open shrine:
+    icon: tots
+    coord: [2030, 3289]
+- _Shrine::QukahNata:
+    comment: Grab Rubber Tights in shrine
+- _Korok::F30
+- _Material<Hearty Bass,6>:
+    coord: [1947, 3283]
+- _Material<Hyrule Bass,5>
+- _Boss::Hinox::Stal:
+    comment: .fury()
+    fury: 2
+    coord: [2103, 3431]
+- _Korok::F46
+- _Korok::F48
+- _Korok::F55
+- _Korok::F43
+- _Korok::F31
+- _Shrine::YahRin
+- _Korok::F36:
+    notes: .link([strat]https://youtu.be/M27Chx0LEuk?t=6085)
+- _Korok::F45
+- _Korok::F44
+- _Korok::F49
+- Tree launch to pillar:
+    icon: tots
+    coord: [3013, 3838]
+- _Chest<Topaz>:
+    coord: [3012, 3907]
+- Talk to .npc(Wabbin):
+    comment: Tree launch up
+    icon: npc
+    notes: A Gift of Nightshade
+    coord: [2590.5, 3545.5]
+- Talk to .npc(Perda):
+    icon: npc-gerudo
+    coord: [2593.5, 3510.5]
+- _Korok::F47
+- _Korok::F57
+- .boss(Kill all enemies):
+    comment: .fury()
+    fury: 1
+    icon: tots
+    coord: [2105, 3915.5]
+- _Korok::F56:
+    comment: Tree launch over
+- _Korok::F54
+- _Boss::Talus::Stone:
+    coord: [1405, 3735]
+- _Korok::F53
+- _Warp::Shrine::YahRin
+- Talk to .npc(Sebasto):
+    icon: npc
+    notes: Take Back the Sea
+    coord: [2895.75, 3431.75]
+- _Tod::Noon:
+    coord: [2898.25, 3411.75]
+- Talk to .npc(Kiana):
+    icon: npc
+    notes: What's For Dinner?
+    coord: [2891.5, 3411.75]
+- Talk to .npc(Rozel):
+    icon: npc
+    notes: Sunken Treasure
+    coord: [2885.75, 3495.5]
+- _Korok::F22:
+    comment: Tree launch up
+- _Korok::F18
+- _Boss::Hinox::Red:
+    coord: [3201, 2994.5]
+- _Korok::N64
+- _Korok::F32:
+    comment: Tree launch over
+- _Shrine::MuwoJeem
+- _Korok::F33
+- _Korok::N65
+- _Warp::Shrine::MuwoJeem
+- _Korok::F37
+- _Boss::Talus::Stone:
+    coord: [3269, 3414.5]
+- _Korok::F50
+- _Korok::F58
+- _Korok::F51
+- _Snap<Monument shard>:
+    comment: A Fragmented Monument
+    coord: [3804.25, 3615.5]
+- _Korok::F52
+- _Snap<Monument Shard>:
+    comment: A Fragmented Monument
+    coord: [3532, 3374]
+- _Snap<Monument Shard>:
+    comment: A Fragmented Monument
+    coord: [3388, 3481]
+- Talk to .npc(Garini):
+    icon: npc
+    notes: A Fragmented Monument
+    coord: [3449.5, 3343]
+- .boss(Crouch on pedestal):
+    icon: tots
+    coord: [3461.5, 3340.5]
+- _Shrine::KahYah
+- _Warp::Shrine::OmanAu:
+    color: rgb(26, 130, 49)

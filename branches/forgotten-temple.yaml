@@ -1,0 +1,19 @@
+- Talk to .npc(brothers):
+    icon: npc
+    notes: Leviathan Bones
+    coord: [-1544.5, -1805.75]
+- _Discover<Maritta Exchange Ruins>:
+    coord: [-1833, -1647]
+- _Korok::H71:
+    comment: .gale()
+    gale: 1
+- _Korok::H68
+- _Korok::K20
+- _Korok::K21
+- _Korok::K15
+- _Korok::H63
+- _Korok::K13
+- _Korok::K14
+- _Shrine::RonaKachta:
+    comment: .gale()
+    gale: 1

@@ -1,0 +1,89 @@
+- _Korok::C82
+- _Korok::C83
+- _Discover<Gatepost Town Ruins>:
+    coord: [-547, 1432]
+- _Korok::C76
+- _Korok::C75
+- _Boss::Talus::Luminous:
+    comment: .fury()
+    fury: 3
+    coord: [-504, 1185]
+- _Korok::C69
+- _Memory::LakeKolomo
+- _Korok::C81:
+    comment: Tree launch over + .gale()
+    gale: 1
+- _Korok::C80
+- _Korok::C79
+- _Korok::C74
+- _Chest<Bomb Arrow x5>:
+    coord: [-1150, 1198.25]
+- _Korok::C73
+- _Korok::C68
+- _Discover<Aquame Bridge>:
+    coord: [-1128.5, 1012]
+- _Korok::C67
+- _Korok::C60
+- _Korok::C61
+- _Korok::C62
+- _Korok::C63
+- _Shrine::KaamYatak:
+    comment: Tree launch over, grab EOD and diamond in shrine
+- _Korok::C57
+- _Korok::C52
+- _Korok::C53
+- _Korok::C47:
+    comment: Drownwarp
+- _Tower::Central:
+    comment: Tree launch over
+- _Korok::C48
+- _Korok::C39:
+    comment: .gale()
+    gale: 1
+- _Korok::C38
+- _Korok::C37
+- _Material<Acorn,18>:
+    coord: [-1305.5, 227.5]
+- _Korok::C36
+- _Material<Lizalfos Tail,1>:
+    coord: [-1358, 242]
+- _Boss::Hinox::Black:
+    comment: Grab bow
+    coord: [-1167, 125.5]
+- _Korok::R48
+- _Korok::R42
+- _Korok::R43
+- _Korok::R45
+- _Korok::R44
+- _Warp::Shrine::JaBaij
+- _Korok::P12
+- _Korok::P13
+- _Discover<Outpost Ruins>:
+    coord: [-259.5, 1694.5]
+- _Material<Rushroom,7>:
+    coord: [-181.75, 1606]
+- _Boss::Talus::Luminous:
+    coord: [-170, 1773]
+- _Korok::D43
+- _Korok::D44
+- _Korok::D31
+- _Korok::D32
+- _Shrine::BoshKala
+- _Korok::D26:
+    comment: .gale()
+    gale: 1
+- _Korok::C84
+- _Korok::D27
+- _Korok::D34
+- _Korok::D33
+- _Korok::D35:
+    comment: .gale()
+    gale: 1
+- _Korok::D36
+- _Korok::D46
+- _Korok::D37
+- _Korok::D38
+- _Korok::D47
+- _Korok::D39
+- _Warp::Shrine::MoggLatan:
+    color: rgb(199, 88, 64)

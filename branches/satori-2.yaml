@@ -1,0 +1,45 @@
+- _Material<Diamond>:
+    coord: [-2236.5, 660.5]
+- _Korok::R70
+- _Korok::R73
+- _Korok::R75
+- _Korok::R76
+- _Korok::G14
+- _Korok::G19
+- _Korok::R77
+- _Korok::R78
+- _Korok::R69
+- _Korok::R68
+- _Korok::R57
+- _Korok::R49
+- _Korok::R58
+- _Korok::R74
+- _Memory::SanidinPark:
+    comment: .gale()
+    gale: 2
+- .boss(Tame Zelda's Horse):
+    icon: tots
+    coord: [-1680, 810]
+- _Korok::R79
+- _Korok::C59
+- _Korok::C58
+- _Discover<Gleeok Bridge>:
+    coord: [-1325, 804]
+- _Korok::C66
+- _Korok::C72
+- _Korok::C78
+- Talk to .npc(Aliza):
+    icon: npc
+    notes: My Hero
+    coord: [-1382.5, 1279]
+- Register horse:
+    coord: [-1432, 1264]
+- Talk to .npc(Toffa):
+    icon: npc
+    notes: The Royal White Stallion
+    coord: [-1433, 1278.5]
+- Talk to .npc(Trott):
+    icon: npc
+    notes: A Rare Find
+    coord: [-1434, 1268.5]
+- _Shrine::RotaOoh
